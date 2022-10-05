@@ -1,0 +1,67 @@
+@use  "../../base/settings" as *;
+
+.contenedorCollage {
+    width: 100vw;
+    font-size: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+.fila {
+    display: block;
+    height: 550px;
+}
+
+.filaPicture {
+    display: inline-block;
+    height: 100%;
+    min-width: 50vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: local;
+}
+
+#a1 {
+    background-image: url(https://images.pexels.com/photos/2043592/pexels-photo-2043592.jpeg);
+
+}
+#b2 {
+    background-image: url(https://i5.walmartimages.com/asr/10a5cc23-2bea-497d-875c-4b950d091ed9_1.9c2d4c0355531b91758d9841c954adac.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF);
+    
+}
+#c1 {
+    background-image: url(https://img.freepik.com/premium-photo/young-man-holding-white-textile-eco-bag-against-urban-city-background-ecology-environment-protection-concept-white-eco-bag-mock-up_174699-762.jpg?w=1380);
+}
+#d2 {
+    background-image: url(https://images.pexels.com/photos/8264236/pexels-photo-8264236.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.filaInfo {
+    display: inline-block;
+    height: 100%;
+    font-size: 20px;
+    width: 50%;
+}
+
+/*.cajitaContainer {
+    background-color: red;
+}*/
+
+img {
+    height: 180px;
+}
+
+.botton {
+    font-size: 20px;
+    background-color: rgb(255, 166, 57);
+            color: $white;
+    border-style: double;
+    border-color: $white;
+    padding:10px;
+
+        &:hover {
+            
+            color: rgb(255, 166, 57);
+    background-color: transparent;
+        }
+}

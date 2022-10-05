@@ -1,0 +1,82 @@
+@use  "../../base/settings" as *;
+// esta configurado para 1440 * 876 segun responsive.
+.divHeader {
+    display: block;
+    min-width:100vw;
+    min-height: 100vh;
+    background-image: url(https://images.pexels.com/photos/2928867/pexels-photo-2928867.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.divHeaderContainer {
+    display: flex;
+    text-align: center;
+    height: 150px;
+    position: relative;
+    top:28px
+    /*height: 40vh;*/
+   
+}
+.title {
+    /*display: inline-block;*/
+    position: relative;
+    font-size: 50px;
+   width: 20vw;
+   font-family: 'Prata', serif;
+}
+
+.navBar {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60vw;
+    margin-top: 20px;
+ }
+
+#imag {
+    height: 60px;
+}
+
+
+.product {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.features {
+    /*display: inline-block;*/
+    
+    font-size: 20px;
+    width: 20vw;
+}
+
+.presentation {
+    margin-top: 90px;
+    padding: 10px;
+    font-size: 75px;
+    color: $dark
+}
+
+.button {
+    margin-top: 50px;
+    font-size: 40px;
+    background-color: rgba(255, 255, 255,1);
+            color: black;
+    border-style: double;
+    border-color: $white;
+
+        &:hover {
+            
+            color: rgb(255, 166, 57);
+    background-color: transparent;
+        }
+}
+
+.elements {
+    margin-top: 310px;
+    font-size: 30px;
+    color:$white
+}
